@@ -13,7 +13,7 @@ class Main extends PluginBase{
     public function onEnable(): void {
         self::$instance = $this;
         $this->getLogger()->alert(Main::PREFIX . "Le plugin a bien été chargée");
-        $this->getServer()->getCommandMap()->register("armorgive", new ArmorCommands($this));
+        $this->getServer()->getCommandMap()->register("armorgive", new ArmorCommands());
     }
 
     public static function getInstance() {
