@@ -1,0 +1,8 @@
+name: ArmorCmdPlugin
+author: Selected378
+main: ArmorCmdPlugin\Main
+version: 1.0.0
+api: 5.0.0
+permissions:
+  ArmorCommand.cmd:
+    default: true
